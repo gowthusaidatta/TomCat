@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git ''
+                git 'https://github.com/gowthusaidatta/TomCat.git'
             }
         }
 
